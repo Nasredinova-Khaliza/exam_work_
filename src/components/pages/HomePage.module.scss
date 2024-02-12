@@ -1,0 +1,18 @@
+.HomePage {
+	h1 {
+		text-align: center;
+	}
+
+	.cards {
+		.card {
+			display: flex;
+			align-items: center;
+			// background: white;
+			color: rgb(255, 255, 255);
+			border: 1px solid rgb(255, 255, 255);
+			img {
+				width: 150px;
+			}
+		}
+	}
+}

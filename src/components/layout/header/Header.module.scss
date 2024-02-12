@@ -1,0 +1,51 @@
+.Header {
+	height: 100px;
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+
+	.content {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		nav {
+			ul {
+				display: flex;
+				align-items: center;
+				text-align: center;
+				justify-content: end;
+				gap: 30px;
+				li {
+					list-style: none;
+					text-decoration: none;
+					background-color: #fff;
+					padding: 20px 80px;
+					text-align: center;
+					cursor: pointer;
+
+					margin: 0px;
+					a {
+						text-decoration: none;
+						color: black;
+						font-weight: 700;
+					}
+				}
+			}
+		}
+		.card {
+			display: flex;
+			justify-content: space-between;
+			width: 450px;
+		}
+		.links {
+			display: flex;
+			gap: 10px;
+			button {
+				border-radius: 25px;
+				border: none;
+				outline: none;
+				padding: 10px;
+			}
+		}
+	}
+}
